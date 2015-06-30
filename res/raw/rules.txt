@@ -1,0 +1,10 @@
+Tijeras cortan papel; 
+papel tapa piedra; 
+piedra aplasta Lagarto; 
+lagarto envenena a Spock; 
+Spock rompe tijeras; 
+tijeras decapitan lagarto; 
+lagarto devora papel; 
+papel desautoriza Spock; 
+Spock vaporiza piedra; 
+y, como siempre, piedra aplasta tijeras.

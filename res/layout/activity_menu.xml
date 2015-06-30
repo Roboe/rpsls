@@ -1,0 +1,71 @@
+<LinearLayout xmlns:a="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    a:id="@+id/RelativeLayout1"
+    a:layout_width="match_parent"
+    a:layout_height="match_parent"
+    a:gravity="center"
+    a:orientation="vertical"
+    a:paddingBottom="@dimen/activity_vertical_margin"
+    a:paddingLeft="@dimen/activity_horizontal_margin"
+    a:paddingRight="@dimen/activity_horizontal_margin"
+    a:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Menu" >
+
+    <ImageView
+        a:layout_width="wrap_content"
+        a:layout_height="wrap_content"
+        a:layout_weight="3"
+        a:adjustViewBounds="true"
+        a:src="@drawable/title_nds" />
+
+    <TextView
+        a:id="@+id/TextView1"
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content"
+        a:layout_weight="1"
+        a:gravity="center"
+        a:text="@string/hello_world" />
+
+    <TextView
+        a:id="@+id/TextView2"
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content"
+        a:layout_marginBottom="10dp"
+        a:layout_weight="1"
+        a:gravity="center"
+        a:text="@string/selectGameMode" />
+
+    <RadioGroup
+        a:id="@+id/GameMode"
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content"
+        a:layout_weight="2"
+        a:gravity="center"
+        a:orientation="horizontal" >
+
+        <RadioButton
+            a:id="@+id/rbCpu"
+            a:layout_height="wrap_content"
+            a:layout_weight="1"
+            a:gravity="center"
+            a:onClick="launchMode"
+            a:text="@string/cpu" />
+
+        <RadioButton
+            a:id="@+id/rbSheldon"
+            a:layout_height="wrap_content"
+            a:layout_weight="1"
+            a:gravity="center"
+            a:onClick="launchMode"
+            a:text="@string/sheldon" />
+
+        <RadioButton
+            a:id="@+id/rbHuman"
+            a:layout_height="wrap_content"
+            a:layout_weight="1"
+            a:gravity="center"
+            a:onClick="launchMode"
+            a:text="@string/human" />
+    </RadioGroup>
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<menu xmlns:a="http://schemas.android.com/apk/res/android" >
+
+    <item
+        a:id="@+id/menu_rules"
+        a:title="@string/menu_rules"/>
+    <item
+        a:id="@+id/menu_records"
+        a:title="@string/menu_records"/>
+    <item
+        a:id="@+id/menu_information"
+        a:title="@string/menu_information"/>
+
+</menu>

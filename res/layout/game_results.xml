@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:a="http://schemas.android.com/apk/res/android"
+    a:id="@+id/Game"
+    style="@style/WrappedContent"
+    a:layout_weight="1"
+    a:gravity="center"
+    a:orientation="horizontal"
+    a:weightSum="1" >
+
+    <LinearLayout
+        style="@style/WrappedContent"
+        a:layout_marginRight="40dp"
+        a:gravity="center"
+        a:orientation="vertical" >
+
+        <TextView
+            a:id="@+id/player1Text"
+            style="@style/WrappedContent"
+            a:text="@string/player" />
+
+        <ImageView
+            a:id="@+id/player1"
+            style="@style/WrappedContent"
+            a:contentDescription="@string/blank"
+            a:src="@drawable/blank" />
+
+        <TextView
+            a:id="@+id/player1SubText"
+            style="@style/WrappedContent" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/WrappedContent"
+        a:layout_marginLeft="40dp"
+        a:gravity="center"
+        a:orientation="vertical" >
+
+        <TextView
+            a:id="@+id/player2Text"
+            style="@style/WrappedContent"
+            a:text="@string/cpu" />
+
+        <ImageView
+            a:id="@+id/player2"
+            style="@style/WrappedContent"
+            a:contentDescription="@string/blank"
+            a:src="@drawable/blank" />
+
+        <TextView
+            a:id="@+id/player2SubText"
+            style="@style/WrappedContent" />
+    </LinearLayout>
+
+</LinearLayout>

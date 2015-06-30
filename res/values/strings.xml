@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RPSLS</string>
+    <string name="hello_world">(OK, this is not for Nintendo DS, but this homebrew inspired me!)</string>
+    <string name="selectGameMode">Select game mode:</string>
+    <string name="cpu">CPU</string>
+    <string name="human">Human</string>
+    <string name="sheldon">Sheldon Cooper</string>
+    <string name="sheldonModeActivated">You\'ve unlocked the Sheldon Cooper mode!</string>
+    <string name="player">Player</string>
+    <string name="selectPlayer">Select which player would like to make its move:</string>
+    <string name="player1">Player 1</string>
+    <string name="player2">Player 2</string>
+    <string name="win">You win!</string>
+    <string name="lose">You lose this time.</string>
+    <string name="draw">Draw.</string>
+
+    <!-- Menu -->
+    <string name="menu_rules">Rules</string>
+    <string name="menu_records">Records</string>
+    <string name="menu_information">About RPSLS</string>
+
+    <!-- Options -->
+    <string name="rock">Rock</string>
+    <string name="paper">Paper</string>
+    <string name="scissors">Scissors</string>
+    <string name="spock">Spock</string>
+    <string name="lizard">Lizard</string>
+    <string name="blank">Blank</string>
+
+    <!-- Results -->
+    <string name="rDraw">No one wins.</string>
+    <string name="r0vs1">Paper covers rock.</string>
+    <string name="r0vs2">Rock crushes scissors.</string>
+    <string name="r0vs3">Spock vaporizes rock.</string>
+    <string name="r0vs4">Rock crushes lizard.</string>
+    <string name="r1vs2">Scissors cut paper.</string>
+    <string name="r1vs3">Paper disproves Spock.</string>
+    <string name="r1vs4">Lizard eats paper.</string>
+    <string name="r2vs4">Scissors decapitate lizard.</string>
+    <string name="r2vs3">Spock smashes scissors.</string>
+    <string name="r3vs4">Lizard poisons Spock.</string>
+    <string name="dialogMessage">There is currently a game being played.\nAre you sure you want to cancel the game?</string>
+
+</resources>

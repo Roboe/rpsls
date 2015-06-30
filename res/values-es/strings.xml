@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PPTLS</string>
+    <string name="hello_world">(Está bien, no es para Nintendo DS, ¡pero esa aplicación casera me inspiró!)</string>
+    <string name="selectGameMode">Seleccione contrincante:</string>
+    <string name="cpu">Ordenador</string>
+    <string name="human">Humano</string>
+    <string name="sheldon">Sheldon Cooper</string>
+    <string name="sheldonModeActivated">You\'ve unlocked the Sheldon Cooper mode!</string>
+    <string name="player">Jugador</string>
+    <string name="selectPlayer">Seleccione qué jugador hará su movimiento:</string>
+    <string name="player1">Jugador 1</string>
+    <string name="player2">Jugador 2</string>
+    <string name="win">¡Has ganado!</string>
+    <string name="lose">Has perdido.</string>
+    <string name="draw">Empate.</string>
+    
+    <!-- Menu -->
+    <string name="menu_rules">Reglas</string>
+    <string name="menu_records">Récords</string>
+    <string name="menu_information">Sobre PPTLS</string>
+    
+    <!-- Options -->
+    <string name="rock">Piedra</string>
+    <string name="paper">Papel</string>
+    <string name="scissors">Tijera</string>
+    <string name="spock">Spock</string>
+    <string name="lizard">Lagarto</string>
+    <string name="blank">En blanco</string>
+
+    <!-- Results -->
+    <string name="rDraw">Nadie gana.</string>
+    <string name="r0vs1">Papel tapa piedra</string>
+    <string name="r0vs2">Piedra aplasta tijeras</string>
+    <string name="r0vs3">Spock vaporiza piedra</string>
+    <string name="r0vs4">Piedra aplasta lagarto</string>
+    <string name="r1vs2">Tijeras cortan papel</string>
+    <string name="r1vs3">Papel desautoriza a Spock</string>
+    <string name="r1vs4">Lagarto devora papel</string>
+    <string name="r2vs4">Tijeras decapitan lagarto</string>
+    <string name="r2vs3">Spock rompe tijeras</string>
+    <string name="r3vs4">Lagarto envenena a Spock</string>
+    <string name="dialogMessage">Se está jugando una partida actualmente.\n¿Seguro que quieres cancelarla?</string>
+
+</resources>
