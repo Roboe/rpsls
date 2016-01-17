@@ -1,4 +1,4 @@
-package roboe.pptsl;
+package roboe.pptsl.activities;
 
 import java.util.NoSuchElementException;
 import java.util.Scanner;
@@ -7,6 +7,8 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.text.method.ScrollingMovementMethod;
 import android.widget.TextView;
+
+import roboe.pptsl.R;
 
 public class Rules extends Activity {
 

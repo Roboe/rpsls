@@ -1,7 +1,4 @@
-package roboe.pptsl;
-
-import java.util.Calendar;
-import java.util.Date;
+package roboe.pptsl.utils;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -10,6 +7,8 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteDatabase.CursorFactory;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.os.Build;
+
+import java.util.Date;
 
 public class BDsquedejanSeQcueLas extends SQLiteOpenHelper {
 
@@ -60,7 +59,6 @@ public class BDsquedejanSeQcueLas extends SQLiteOpenHelper {
 				+ ((d.getSeconds() < 10) ? "0" + d.getSeconds() : d
 						.getSeconds());
 
-		// No uso Calendar porque no puedo referenciar estáticamente a sus
-		// métodos y no tengo tiempo para buscar una solución
+		// Deprecated Date.class
 	}
 }

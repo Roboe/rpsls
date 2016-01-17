@@ -1,8 +1,10 @@
-package roboe.pptsl;
+package roboe.pptsl.activities;
 
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
+
+import roboe.pptsl.R;
 
 public class SheldonGame extends CpuGame {
 

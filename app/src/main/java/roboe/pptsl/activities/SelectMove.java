@@ -1,9 +1,11 @@
-package roboe.pptsl;
+package roboe.pptsl.activities;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+
+import roboe.pptsl.R;
 
 public class SelectMove extends Activity {
 

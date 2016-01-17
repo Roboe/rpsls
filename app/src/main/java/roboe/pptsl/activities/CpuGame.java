@@ -1,4 +1,4 @@
-package roboe.pptsl;
+package roboe.pptsl.activities;
 
 import android.app.Activity;
 import android.content.SharedPreferences;
@@ -10,6 +10,9 @@ import android.view.animation.AlphaAnimation;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import roboe.pptsl.utils.BDsquedejanSeQcueLas;
+import roboe.pptsl.R;
 
 public class CpuGame extends Activity {
 

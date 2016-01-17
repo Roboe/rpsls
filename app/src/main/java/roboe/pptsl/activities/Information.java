@@ -1,7 +1,9 @@
-package roboe.pptsl;
+package roboe.pptsl.activities;
 
 import android.app.Activity;
 import android.os.Bundle;
+
+import roboe.pptsl.R;
 
 public class Information extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
