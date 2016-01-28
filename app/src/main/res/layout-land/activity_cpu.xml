@@ -9,7 +9,7 @@
     a:paddingLeft="@dimen/activity_horizontal_margin"
     a:paddingRight="@dimen/activity_horizontal_margin"
     a:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".Menu" >
+    tools:context=".activities.Menu" >
 
     <LinearLayout
         a:id="@+id/Game"

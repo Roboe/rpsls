@@ -1,8 +1,10 @@
-package roboe.pptsl;
+package roboe.pptsl.activities;
 
 import android.content.Context;
 import android.content.res.Resources;
 import android.util.Log;
+
+import roboe.pptsl.R;
 
 public class Game {
 

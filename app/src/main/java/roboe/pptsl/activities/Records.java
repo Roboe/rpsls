@@ -1,10 +1,13 @@
-package roboe.pptsl;
+package roboe.pptsl.activities;
 
 import android.app.Activity;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.widget.TextView;
+
+import roboe.pptsl.utils.BDsquedejanSeQcueLas;
+import roboe.pptsl.R;
 
 public class Records extends Activity {
 

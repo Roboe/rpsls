@@ -1,4 +1,4 @@
-package roboe.pptsl;
+package roboe.pptsl.activities;
 
 import android.os.Bundle;
 import android.view.MenuItem;
@@ -9,6 +9,8 @@ import android.widget.Toast;
 import android.app.Activity;
 import android.content.Intent;
 import android.content.SharedPreferences;
+
+import roboe.pptsl.R;
 
 public class Menu extends Activity {
 
